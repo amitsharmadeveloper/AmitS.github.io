@@ -276,7 +276,7 @@ img {
 }
 
 .home__social-icon {
-  font-size: 1.05rem;
+  font-size: 2.05rem;
   color: var(--first-color);
 }
 .home__social-icon:hover {
@@ -355,6 +355,14 @@ img {
   background-color: var(--first-color-alt);
 }
 
+.button--flex{
+  border-color: var(--first-color-second); 
+  }
+  
+  .button--flex:hover {
+    background-color: var(--first-color-alt);
+  }
+    
 .button__icon {
   font-size: 1.25rem;
   margin-left: 0.25rem;
@@ -889,6 +897,14 @@ img {
   .project__img {
     width: 200px;
   }
+
+  .button--flex{
+    border-color: var(--first-color-second); 
+    }
+    
+    .button--flex:hover {
+      background-color: var(--first-color-alt);
+    }
 }
 
 /* For medium Devices */
@@ -919,6 +935,14 @@ img {
     grid-template-columns: 0.6fr;
     justify-content: center;
   }
+
+  .button--flex{
+    border-color: var(--first-color-second); 
+    }
+    
+    .button--flex:hover {
+      background-color: var(--first-color-alt);
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -1080,6 +1104,14 @@ img {
   .footer__copy {
     margin-top: 4.5rem;
   }
+
+  .button--flex{
+    border-color: var(--first-color-second); 
+    }
+    
+    .button--flex:hover {
+      background-color: var(--first-color-alt);
+    }
 }
 
 /* For large devices */
@@ -1106,4 +1138,12 @@ img {
   .button--white {
     bottom: -4.5rem;
   }
+
+  .button--flex{
+    border-color: var(--first-color-second); 
+    }
+    
+    .button--flex:hover {
+      background-color: var(--first-color-alt);
+    }
 }
